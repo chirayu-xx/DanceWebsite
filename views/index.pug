@@ -1,0 +1,55 @@
+doctype html
+html
+    head
+        title DanceAcademy
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+             ul
+                div#logo
+                    img(src="../static/1.png", alt="")
+                    |DA 
+                li #[a(href = '/') Home]
+                li #[a(href = '/') About US]
+                li #[a(href = '/') Contact]
+                li #[a(href = '/') Services]
+                li #[a(href = '/') ClassInfo] 
+    section#introSection
+        div Welcome to Dance Academy
+        div#tagline
+            span.change
+    section#missionSection
+        h3 Our Mission 
+        div.card 
+            p Give Perfection
+            div.card-box
+                div.card-img
+                    img(src="../static/1.png", alt="")
+                div.card-content 
+                    p This is the best Dance academy
+        div.card 
+            p Give Expertise
+            div.card-box
+                div.card-img
+                    img(src="../static/1.png", alt="")
+                div.card-content 
+                    p This is the best Guidance academy
+        div.card 
+            p Give out Talent
+            div.card-box
+                div.card-img
+                    img(src="../static/1.png", alt="")
+                div.card-content 
+                    p This is the best Teaching academy
+    section#sponcerSection
+        h3 Our Sponcers
+        div#sponcers 
+            img(src="../static/apple.png", alt="" class = "spImage filter")
+            img(src="../static/google.png", alt="" class = "spImage")
+            img(src="../static/tesla.png", alt="" class = "spImage filter")
+            img(src="../static/hp.png", alt="" class = "spImage")
+    footer#footer
+        |Copyright &copy; www.DanceAcademy.com. All Rights Reserved!
+    script
+        include ../static/index.js

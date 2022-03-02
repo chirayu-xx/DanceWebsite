@@ -1,0 +1,21 @@
+doctype html
+html
+    head
+        title DanceAcademy
+        block scripts
+        block style
+    body
+        nav#navbar
+             ul
+                div#logo
+                    img(src="../static/1.png", alt="")
+                    |DA 
+                li #[a(href = '/home') Home]
+                li #[a(href = '/home') About US]
+                li #[a(href = '/contact') Contact]
+                li #[a(href = '/home') Services]
+                li #[a(href = '/home') ClassInfo]
+        block content
+        block foot
+            footer#footer
+                |Copyright &copy; www.DanceAcademy.com. All Rights Reserved!

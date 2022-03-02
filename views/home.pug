@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+    script(src="../static/index.js")
+block style
+    style
+        include ../static/style.css
+block content
+    
+    section#introSection
+        div Welcome to Dance Academy
+        div#tagline
+            span.change
+    section#missionSection
+        h3 Our Mission 
+        div.card 
+            p Give Perfection
+            div.card-box
+                div.card-img
+                    img(src="../static/1.png", alt="")
+                div.card-content 
+                    p This is the best Dance academy
+        div.card 
+            p Give Expertise
+            div.card-box
+                div.card-img
+                    img(src="../static/1.png", alt="")
+                div.card-content 
+                    p This is the best Guidance academy
+        div.card 
+            p Give out Talent
+            div.card-box
+                div.card-img
+                    img(src="../static/1.png", alt="")
+                div.card-content 
+                    p This is the best Teaching academy
+    section#sponcerSection
+        h3 Our Sponcers
+        div#sponcers 
+            img(src="../static/apple.png", alt="" class = "spImage filter")
+            img(src="../static/google.png", alt="" class = "spImage")
+            img(src="../static/tesla.png", alt="" class = "spImage filter")
+            img(src="../static/hp.png", alt="" class = "spImage")
